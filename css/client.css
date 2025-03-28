@@ -1,0 +1,25 @@
+/* Make the sidebar take full height */
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Adjust the main content margin to prevent overlap with the sidebar */
+.container-fluid {
+    margin-left: 250px; /* Same width as the sidebar */
+}
+
+/* Style the sidebar links */
+.nav-link {
+    font-size: 18px;
+    padding: 12px;
+}
+
+/* Change link color on hover */
+.nav-link:hover {
+    background-color: #444;
+    color: #fff;
+}

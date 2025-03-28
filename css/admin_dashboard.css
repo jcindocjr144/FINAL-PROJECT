@@ -1,0 +1,89 @@
+.body {
+    margin: 0;
+    padding: 20px;
+    padding-top: 80px;
+    min-height: 100vh; 
+    margin: 0;
+    padding: 30px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.navigation {
+    background-color: #117554;
+    position: fixed;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+    border-bottom: #FFEB00 solid 0.1px;
+    background-attachment: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.navigation img {
+    width: 160px;
+}
+
+.navigation button {
+    background-color: transparent;
+    border: none;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+
+.navigation button img {
+    width: 160px;
+}
+
+.adminDashboard {
+    min-height: 100vh; 
+    background-color: #0dc588;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .adminDashboard {
+        background-attachment: scroll; 
+    }
+}
+
+.buttons {
+    margin: auto;
+    width: 94%;
+    padding: 20px 0;
+}
+
+.option {
+    margin: auto;
+    width: max-content;
+    height: max-content;
+}
+
+.option button {
+    background-image: linear-gradient(#87ACFF 5%, #6592F9 11%, #4379F2 90%, #27468C);
+    border-radius: 30px;
+    border: #335BB6 solid 1px;
+    background-color: blue;
+    width: 380px;
+    height: 170px;
+    margin: 20px 0;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, .25);
+    padding: 0;
+    padding-top: 20px;
+    font-family: "Inder", sans-serif;
+    background-attachment: fixed; 
+    color: #FFFFFF;
+}
+
+.option img {
+    width: 100px;
+}

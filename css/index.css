@@ -1,0 +1,33 @@
+/* Default: Show icon, hide text */
+.nav-item .icon {
+    display: inline-block;
+  }
+  
+  .nav-item .text {
+    display: none;
+  }
+  
+  @media (max-width: 768px) { 
+    .nav-item .icon {
+      display: none;
+    }
+  
+    .nav-item .text {
+      display: inline-block;
+    }
+  }
+  #dynamic-content {
+    animation:  3s infinite;
+    opacity: 1;
+    transition: opacity 1s ease;
+  }
+  
+  @keyframes fade {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  

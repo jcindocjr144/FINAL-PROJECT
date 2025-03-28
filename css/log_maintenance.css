@@ -1,0 +1,236 @@
+.body {
+    margin: 0;
+    padding: 20px;
+    padding-top: 80px;
+    background-color: #CFFFD1;
+}
+
+.navigation {
+    background-color: #117554;
+    position: fixed;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+    border-bottom: #FFEB00 solid 0.1px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 999;
+}
+
+.navigation img {
+    width: 160px;
+}
+
+.navigation button {
+    background-color: transparent;
+    border: none;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+
+.navigation button img {
+    width: 160px;
+}
+
+.containerBox {
+    background-color: #168D66;
+    width: 99%;
+    height: max-content;
+    margin: auto;
+    padding: 30px;
+    padding-top: 110px;
+    position: relative;
+    min-height: 520px;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    background-color: #117554;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.header a {
+    height: min-content;
+}
+
+.header img {
+    width: 40px;
+    height: 40px;
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.header .date {
+    background-color: rgba(255, 255, 255, 0.25);
+    width: min-content;
+    height: min-content;
+    font-family: "Inder", sans-serif;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.header button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #E0E0E0;
+    border-radius: 50%;
+    padding: 0;
+    background-color: #007BFF;
+}
+
+.header button i {
+    font-size: x-large;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+
+.contents {
+    padding: 20px;
+    height: min-content;
+}
+
+.table-container {
+    margin: auto;
+    width: 700px;
+}
+
+.box {
+    background-color: yellow;
+    width: 75%;
+    height: 40px;
+    border-radius: 0 50px 50px 0;
+    border: solid black 1px;
+    border-left: none;
+    position: relative;
+}
+
+.box h1 {
+    font-family: "Abril Fatface", serif;
+    font-size: 30px;
+    font-weight: bolder;
+    position: absolute;
+    right: 30px;
+}
+
+.modal-body {
+    border: #6C6B6B solid 1px;
+    border-radius: 20px;
+    background-color: #4379F2;
+    box-shadow: 0 2px 4px;
+}
+
+.btn-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 26px;
+}
+
+.logContents {
+    color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    padding: 0 20px;
+    margin: 0;
+}
+
+.footer button {
+    width: 120px;
+    height: 40px;
+    background-color: #ca5628;
+    font-family: "Tauri", sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.footer button:hover {
+    color: white;
+    background-color: #209d2f;
+}
+
+input[type=radio] {
+    border: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.top input[type=number], input[type=text] {
+    width: 140px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: solid 1px #FFFFFF;
+    color: #FFFFFF;
+}
+
+.mid input[type=text], input[type=number] {
+    background-color: #5283F2;
+    border: solid .1px #FFFFFF;
+    height: 30px;
+}
+
+.mid #payment_method {
+    margin: auto;
+    height: max-content;
+    line-height: 0;
+}
+
+.mid #driver_name {
+    width: 280px;
+}
+
+#days {
+    width: 120px;
+    height: 30px;
+}
+
+.bottom {
+    background-color: #755711;
+    padding: auto;
+    display: flex;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.bottom .row {
+    width: max-content;
+    height: 60px;
+    margin: auto;
+}
+
+.bottom .col {
+    width: min-content;
+}
+
+.bottom input {
+    background-color: #17936A;
+    width: 300px;
+    border: solid 1px #FFFFFF;
+    color: #FFFFFF;
+}
+
+.bottom .line {
+    border: solid 2px white;
+    border-radius: 10px;
+    width: 1px;
+    height: 100%;
+}
+
+.borderless, .borderless td {
+    border: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -1,0 +1,64 @@
+h2, .btn {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.name {
+  text-shadow: 1px 2px 2px black;
+}
+
+.card {
+  box-shadow: 5px 30px 30px black;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: white;
+}
+
+.input-container {
+  position: relative;
+}
+
+.input-container i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.input-container i.icon-left {
+  left: 10px; /* Icon position */
+}
+
+.input-container input,
+.input-container select {
+  padding-left: 35px;
+  padding-right: 10px;
+  color: white;
+  background-color: #198754;
+  border: 1px solid #000;
+  border-radius: 5px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.input-container select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+.input-container option {
+  color: black; 
+}
+
+.input-container select::placeholder,
+.input-container input::placeholder {
+  color: #ddd;
+}
+
+.input-container select:invalid {
+  color: #ddd; /* Placeholder color */
+}
